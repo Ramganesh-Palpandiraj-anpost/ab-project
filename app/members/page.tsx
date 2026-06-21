@@ -1,1 +1,1 @@
-import { AppShell } from "@/components/app-shell"; import { MemberManager } from "@/components/member-manager"; export default function Page(){return <AppShell title="Members" subtitle="Manage members and family details"><MemberManager/></AppShell>}
+import { AppShell } from "@/components/app-shell"; import { MemberManager } from "@/components/member-manager"; export default function Page(){return <AppShell title="Members" subtitle="Manage member contact and occupation details"><MemberManager/></AppShell>}

@@ -12,4 +12,4 @@ export async function middleware(request: NextRequest) {
   if (!user) return NextResponse.redirect(new URL("/login", request.url));
   return response;
 }
-export const config = { matcher: ["/dashboard/:path*","/members/:path*","/donations/:path*","/expenses/:path*","/reports/:path*","/settings/:path*"] };
+export const config = { matcher: ["/dashboard/:path*","/leaders/:path*","/members/:path*","/donations/:path*","/expenses/:path*","/reports/:path*","/settings/:path*"] };

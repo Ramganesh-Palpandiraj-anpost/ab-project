@@ -1,11 +1,12 @@
-import type { Donation, Expense, Member } from "./types";
+import type { Donation, Expense, Leader, Member } from "./types";
 export const members: Member[] = [
-  { id:"1", member_name:"Arun Kumar", family_name:"Muthu Family", phone:"98765 43210", status:"active", annual_commitment:12000 },
-  { id:"2", member_name:"Bala Murugan", family_name:"Selvam Family", phone:"98421 33445", status:"active", annual_commitment:12000 },
-  { id:"3", member_name:"Ganesh Raj", family_name:"Rajan Family", phone:"97901 11223", status:"active", annual_commitment:12000 },
-  { id:"4", member_name:"Karthik S", family_name:"Siva Family", phone:"94430 55667", status:"inactive", annual_commitment:12000 },
-  { id:"5", member_name:"Prabhu M", family_name:"Mani Family", phone:"90030 77889", status:"active", annual_commitment:12000 }
+  { id:"1", member_name:"Arun Kumar", family_name:"Muthu Family", phone:"98765 43210", location:"Chennai", occupation:"Engineer", status:"active", annual_commitment:12000 },
+  { id:"2", member_name:"Bala Murugan", family_name:"Selvam Family", phone:"98421 33445", location:"Madurai", occupation:"Business owner", status:"active", annual_commitment:12000 },
+  { id:"3", member_name:"Ganesh Raj", family_name:"Rajan Family", phone:"97901 11223", location:"Coimbatore", occupation:"Accountant", status:"active", annual_commitment:12000 },
+  { id:"4", member_name:"Karthik S", family_name:"Siva Family", phone:"94430 55667", location:"London", occupation:"Consultant", status:"inactive", annual_commitment:12000 },
+  { id:"5", member_name:"Prabhu M", family_name:"Mani Family", phone:"90030 77889", location:"Trichy", occupation:"Teacher", status:"active", annual_commitment:12000 }
 ];
+export const leaders: Leader[] = [];
 export const donations: Donation[] = [
   {id:"d1",member_id:"1",member_name:"Arun Kumar",donation_year:2026,amount:12000,donation_type:"Sandha",payment_date:"2026-01-14",remarks:"Annual contribution"},
   {id:"d2",member_id:"2",member_name:"Bala Murugan",donation_year:2026,amount:8500,donation_type:"Sandha",payment_date:"2026-02-02",remarks:"Part payment"},

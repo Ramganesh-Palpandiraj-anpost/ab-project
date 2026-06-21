@@ -8,6 +8,7 @@ Responsive Sandha, donation, expense, member, pending-balance, and annual-report
 - Supabase authentication and protected portal routes
 - Dashboard KPIs, trends, expense mix, and pending collections
 - Searchable member, donation, and expense CRUD tables
+- Leader profiles with positions, contact details, occupations, and photos
 - PDF/Excel exports, light/dark themes, and mobile navigation
 - PostgreSQL schema, validation, roles, indexes, and row-level security
 - Excel workbook importer and demo data before Supabase is connected
@@ -26,7 +27,7 @@ Open `http://localhost:3000`. Demo data works without environment variables; aut
 
 ## Supabase
 
-1. Create a project and run `supabase/migrations/001_initial_schema.sql` in its SQL editor.
+1. Create a project and run the files in `supabase/migrations/` in filename order in its SQL editor.
 2. Add the URL and keys from `.env.example` to `.env.local`.
 3. Create the first Authentication user, then promote it:
 
