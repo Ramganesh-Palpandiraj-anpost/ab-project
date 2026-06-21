@@ -1,0 +1,1 @@
+export function SectionHeading({title,description,action}:{title:string;description:string;action?:React.ReactNode}){return <div className="mb-5 flex flex-col justify-between gap-3 sm:flex-row sm:items-center"><div><h2 className="font-[var(--font-display)] text-lg font-bold">{title}</h2><p className="text-sm text-slate-500">{description}</p></div>{action}</div>}

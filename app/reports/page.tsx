@@ -1,0 +1,1 @@
+import { AppShell } from "@/components/app-shell"; import { ReportCenter } from "@/components/report-center"; export default function Page(){return <AppShell title="Reports" subtitle="Statements, outstanding balances and exports"><ReportCenter/></AppShell>}

@@ -1,0 +1,1 @@
+import { AppShell } from "@/components/app-shell"; import { FinanceTable } from "@/components/finance-table"; export default function Page(){return <AppShell title="Expenses" subtitle="Record and categorise community spending"><FinanceTable kind="expenses"/></AppShell>}

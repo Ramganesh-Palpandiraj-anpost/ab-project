@@ -1,0 +1,1 @@
+import { AppShell } from "@/components/app-shell"; import { FinanceTable } from "@/components/finance-table"; export default function Page(){return <AppShell title="Donations" subtitle="Track Sandha and voluntary contributions"><FinanceTable kind="donations"/></AppShell>}
